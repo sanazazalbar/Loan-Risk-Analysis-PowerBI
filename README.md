@@ -1,41 +1,46 @@
-# 💳 Loan Risk & Approval Analysis Dashboard (Power BI)
+# 💳 Bank Loan Report Dashboard (Power BI)
 
 ## 📌 Project Overview
-This project analyzes loan application data using Power BI to understand approval trends, risk factors, and customer profiles.
-
-## 🎯 Objectives
-- Analyze loan approval vs rejection trends
-- Identify high-risk customers
-- Understand income and loan distribution
-- Detect key factors influencing loan approval
+Built an interactive Power BI dashboard — **Bank Loan Report** — 
+to analyze loan application data, assess credit risk, and 
+distinguish between Good Loans and Bad Loans using DAX measures 
+and data transformation.
 
 ## 🛠 Tools Used
-- Power BI
+- Power BI Desktop
+- DAX (Data Analysis Expressions)
 - Data Cleaning & Transformation
-- DAX Functions
 - Data Visualization
 
-## 📊 Key Insights
-- Approval rate vs rejection rate
-- Income group analysis
-- Loan amount distribution
-- Risk segmentation of applicants
+## 📊 Key Metrics Tracked
+| Metric | Description |
+|---|---|
+| Total Loan Applications | Count of all loan applications |
+| Total Funded Amount | Sum of all disbursed loan amounts |
+| Total Amount Received | Total repayments collected |
+| Average Interest Rate | Mean interest rate across loans |
+| Average DTI | Debt-to-Income ratio of applicants |
 
-## 📁 Files Included
-- Power BI dashboard (.pbix)
-- Dataset (if available)
-- Dashboard screenshots
+## 🔍 Key Analyses Performed
+- **Good Loan vs Bad Loan** classification with funded 
+  amount and received amount per segment
+- **Loan status breakdown** across all applicants
+- **State-wise distribution** of loan applications
+- **Monthly trend** of total loan applications over time
+- **Home ownership** impact on loan approval
+- **Grade-wise** loan segmentation (A to G)
+
+## 💡 Business Use Case
+Banks and financial institutions can use this dashboard to:
+- Identify high-risk (Bad Loan) applicants early
+- Track funded vs received amounts to monitor defaults
+- Understand borrower profiles by state, grade & home ownership
+- Make smarter, data-driven lending decisions
 
 ## 📸 Dashboard Preview
 ![Dashboard](screenshots/dashboard.jpeg)
 
-## 💡 Business Use Case
-Banks and financial institutions can:
-- Reduce loan default risk
-- Improve approval strategies
-- Target the right customer segments
-
 ## 🚀 Conclusion
-The dashboard provides insights into loan patterns and helps in making smarter lending decisions.
-
----
+This dashboard provides a comprehensive view of loan portfolio 
+health, enabling credit risk teams to reduce default rates and 
+optimize approval strategies.
